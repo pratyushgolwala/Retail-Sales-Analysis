@@ -1,15 +1,19 @@
-# How to Run the Retail Sales Analysis Project
+# Retail Sales Analysis SQL Project
 
-## ✅ Project Setup Complete!
+A comprehensive SQL project analyzing retail sales data using SQLite. This project demonstrates data analysis capabilities through 10 business intelligence questions, covering sales trends, customer behavior, and product performance across different categories and time periods.
 
-Your project is now ready to use. Here's how to run it:
+## � Overview
+- **Records**: 2,000 transactions from 155 unique customers
+- **Time Period**: January 2022 - December 2023  
+- **Categories**: Electronics, Clothing, Beauty
+- **Top Category by Sales**: Electronics ($313,810)
 
 ## 🚀 Quick Start
 
-### 1. Database is Already Set Up
-- Database file: `retail_analysis.db`
-- Data imported: 2000 sales records
-- Date range: 2022-2023
+### 1. Setup Database
+```bash
+./run_project.sh
+```
 
 ### 2. Run Analysis (Choose One Method)
 
@@ -41,14 +45,6 @@ sqlite3 retail_analysis.db
 ```
 Then run any SQL commands from `sql_query_p1.sql`
 
-## 📊 Key Findings from Your Data
-
-- **Total Records**: 2,000 transactions
-- **Unique Customers**: 155 customers  
-- **Product Categories**: Electronics, Clothing, Beauty
-- **Top Category by Sales**: Electronics ($313,810)
-- **Date Range**: January 2022 - December 2023
-
 ## 📁 Project Files
 
 - `retail_analysis.db` - SQLite database with your data
@@ -56,6 +52,12 @@ Then run any SQL commands from `sql_query_p1.sql`
 - `analyze.sh` - Interactive analysis script
 - `run_project.sh` - Initial setup script
 - `setup_database.sql` - Database schema
+- `HOW_TO_RUN.md` - Detailed setup instructions
+
+## 🔧 Technologies Used
+- **SQL**: Complex queries with JOINs, aggregations, and window functions
+- **SQLite**: Database management and storage
+- **Bash**: Automation and interactive scripts
 
 ## 🔄 Need to Reset?
 
